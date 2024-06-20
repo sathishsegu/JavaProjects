@@ -10,9 +10,9 @@ public class Insertion {
 	public static void insert(Scanner sc) throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		String url = "jdbc:mysql://localhost/kodnest";
-		String uName = "root";
-		String pwd = "1561";
+		String url = "jdbc:mysql://localhost/DBName";
+		String uName = "Enter your UserName";
+		String pwd = "Enter your password";
 		
 		String query = "insert into student values(?,?)";
 		
