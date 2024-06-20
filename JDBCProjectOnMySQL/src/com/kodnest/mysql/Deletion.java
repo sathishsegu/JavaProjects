@@ -10,9 +10,9 @@ public class Deletion {
 	public static void delete(Scanner sc) throws ClassNotFoundException, SQLException{
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		String url = "jdbc:mysql://localhost/kodnest";
-		String uName = "root";
-		String pwd = "1561";
+		String url = "jdbc:mysql://localhost/DBName";
+		String uName = "Enter Your UserName";
+		String pwd = "Enter Your Password";
 		
 		Connection conn = DriverManager.getConnection(url, uName, pwd);
 		
