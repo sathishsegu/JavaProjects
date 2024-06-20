@@ -10,9 +10,9 @@ public class Projection {
 	public static void project() throws ClassNotFoundException , SQLException{
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		String url = "jdbc:mysql://localhost/kodnest";
-		String uName = "root";
-		String pwd = "1561";
+		String url = "jdbc:mysql://localhost/DBName";
+		String uName = "Enter your username";
+		String pwd = "Enter your Password";
 		
 		Connection conn = DriverManager.getConnection(url, uName, pwd);
 		
